@@ -19,7 +19,7 @@ h1, p, label {
     padding-top: 0.5em;
 }
 
-#link {
+.button {
     background-color: hotpink;
     border: 0.1em solid darkgray;
     padding: 0.5em;
@@ -28,3 +28,37 @@ h1, p, label {
     color: white;
     text-decoration: none;
 }
+
+.button:hover {
+    background-color: #cc2580;
+}
+
+.container {
+    border: 0.5em hotpink solid;
+    border-radius: 1em;
+    padding: 2em;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+}
+
+#genre {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5em;
+    border: 0.1em solid darkgray;
+    background-color: #505050;
+    color: white;
+}
+
+#genre-form {
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

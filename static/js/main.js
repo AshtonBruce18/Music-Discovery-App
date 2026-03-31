@@ -11,5 +11,5 @@ function parseArtists(jsonString){
     return `<h1> ${name} </h1>
             <img src="${imgURL}" alt="${name}"></img>
             <p><span>${followers} followers</span>
-            <a id="link" href="${link}">Open Spotify Page</a></p>`;
+            <a class="button" href="${link}">Open Spotify Page</a></p>`;
 }
