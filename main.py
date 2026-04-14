@@ -25,16 +25,6 @@ def display(genre):
 
     return jsonify(artists)
 
-
-    '''songs = main.songs
-    result = "<ol>"
-    for song in songs:
-        result += f"<li>{song['name']}</li>"
-    result += "</ol>"
-    return result
-    '''
-
-
 if (__name__ == "__main__"):
     app.run()
 
